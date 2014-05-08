@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$navbar-height:                                        75px;
+$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-inverse-bg: #27AE60; 
+$navbar-inverse-link-color: white;
+
+$brand-primary: #c0392b;
+
+@import 'bootstrap';
+
+  .center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+      font-size: 30px;
+}
+
+
+.navbar-nav > li > a {
+  font-size: 18px;
+}
+
+.portfolio-item {
+	margin-bottom: 25px;
+}
+
+
+
+
